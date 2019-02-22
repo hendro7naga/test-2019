@@ -1,0 +1,16 @@
+@media screen and (max-width: 400px){
+}
+/*For Small*/
+@media screen and (max-width: 600px){
+}
+/*for tablet*/
+@media screen and (max-width: 991px){
+}
+
+/*For desktop*/
+@media screen and (max-width: 1200px){
+}
+
+/*For large desktop*/
+@media screen and (min-width: 1201px){
+}

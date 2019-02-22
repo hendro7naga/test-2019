@@ -1,0 +1,189 @@
+/**
+* Customize Style
+ */
+.font-nunito {
+    font-family: 'Nunito', sans-serif !important;
+}
+p, th, td, span {
+    font-family: 'Nunito', Roboto, sans-serif !important;
+}
+.mark-text {
+    background-color: #fff696;
+    padding: 1px 2px;
+    color: #566774;
+}
+.text-small {
+    font-size: .65em;
+}
+.no-margin {
+    margin: 0 !important;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+.icon-block {
+    padding: 0 15px;
+}
+.big-title {
+    font-size: 2em;
+    line-height: 1.2em;
+}
+.btn, .btn-floating {
+    margin: 1.25rem 0 .912rem 0;
+}
+.brand-logo img {
+    height: 64px;
+    line-height: 68px;
+}
+/*.text-reject {*/
+    /*color: #e62b23;*/
+    /*font-weight: 500;*/
+/*}*/
+.text-reject {
+    padding: .15rem .28495rem;
+    font-weight: 500;
+    color: #f4f5f5;
+    background-color: #f55443;
+}
+/*.text-success {
+    color: #3ad744;
+    font-weight: 500;
+}*/
+.text-success {
+    padding: .15rem .28495rem;
+    font-weight: 500;
+    color: #f2f5f5;
+    background-color: #30a06a;
+}
+nav,
+.page-footer {
+    /*background-color: #030303;*/
+}
+.parallax-container {
+    height: 564px;
+}
+/*.sidenav li > .subheader {
+    background-color: #0c0c0c;
+}*/
+
+/*Inform Alerts Components Styles*/
+.inform {
+    position: relative;
+    margin:.54rem 0 .65rem 0;
+    color: #444444;
+    background-color:#fff;
+    border-radius:2px;
+    font-family: 'Nunito', sans-serif;
+    -webkit-transition:-webkit-box-shadow .25s;
+    transition:-webkit-box-shadow .25s;
+    transition:box-shadow .25s;
+    box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.card-header {
+    padding-top: 2px;
+    color: #635e5e;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+}
+.inform-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .45rem 1rem;
+    color: inherit;
+}
+button.close,
+.i .close,
+.span .close {
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+/*End of Inform Alert Components*/
+/*====================================================================*/
+
+#main,
+.sidenav,
+.sidenav .collapsible-body,
+.sidenav.fixed .collapsible-body {
+    background-color: #fbfbfb;
+}
+
+/*customize form input styles*/
+
+/* label color */
+.input-field label {
+    color: #858585;
+}
+
+.sidenav li > .subheader {
+    /*background-color: #e5e5e5 !important;*/
+    font-weight: 600;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 40px;
+    color: #455e8b;
+    background-color: #e5e5e5 !important;
+}
+
+.sidenav li.active {
+    background-color: rgba(35, 52, 70, 0.2);
+}
+.sidenav li.active a {
+    /*color: #343c4a;*/
+    color: #697b9a;
+    font-weight: 600;
+}
+.sidenav li.active::before {
+    content: '';
+    position: absolute;
+    width: .26em;
+    height: 48px;
+    background-color: #3164c8;
+}
+.sidenav .collapsible-header,
+.sidenav.fixed .collapsible-header,
+.sidenav li > a {
+    padding: 0 16px;
+    font-size: .8694rem !important;
+}
+.sidenav span.badge.new {
+    min-width: 1.5rem !important;
+    font-weight: 400 !important;
+}
+.modal .modal-header {
+    height: auto;
+    color: #d6d6d6;
+    padding: 6px 2%;
+}
+/*.modal .modal-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #d0d0d0;
+}*/
